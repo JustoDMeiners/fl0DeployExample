@@ -10,4 +10,7 @@ public class HelloController {
     public String index() {
         return "Hello from the FL0 Java Maven template!!!";
     }
+
+    @GetMapping("/example")
+    public String example(){ return "Probando app";}
 }
